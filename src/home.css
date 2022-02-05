@@ -1,0 +1,130 @@
+.wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 40vh;
+    padding-bottom: 2em;
+    background-color: #ffffff;
+    padding: 1em 5em;
+    font-family: 'Helvetica Neue';
+}
+
+.wrapper::after {
+    content: "";
+    width: 75%;
+    height: 2px;
+    background-color: #adadad;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.wrapper-title {
+    padding: 1em;
+    color: black;
+}
+
+.wrapper-title::after {
+    content: "";
+    width: 75px;
+    height: 2px;
+    background-color: #FF8A00;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* Intro section */
+ .intro {
+    width: 100%;
+    height: 40rem;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #c6c6c7;
+ }
+
+ .intro-content {
+     padding: 5rem 15rem;
+ }
+
+ .intro-content h1 {
+     text-align: center;
+     font-size: 7rem;
+     font-weight: 200;
+ }
+
+ .intro-content span {
+    text-align: center;
+    font-size: 0.2em;
+    display: block;
+    letter-spacing: 0.04em;
+    font-weight: 200;
+ }
+
+
+/* About Section */
+
+.about-image {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    box-sizing: border-box;
+    margin: auto 0em;
+}
+
+.about-image img {
+    width: 40%;
+    border-radius: 50%;
+    margin-left: auto;
+}
+
+.about-description {
+    display: flex;
+    flex-direction: row;
+    max-width: 40%;
+    min-height: 50px;
+    box-sizing: border-box;
+    margin: auto 0em;
+}
+
+.about-description p {
+    padding: 16px;
+    font-family: 'HelveticaNeueLight', sans-serif;
+    line-height: 1.6em;
+    letter-spacing: .07em;
+}
+
+
+/* Footer Section */
+
+.footer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 0px 30px 0px;
+}
+
+.outer-footer {
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: inline-flex;
+    
+}
+
+.inner-footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-icons {
+    width: 3em;
+    border: none;
+    color: orange;
+    background-color: white;
+    display: inline-block;
+}
+
+.footer-copyright {
+    width: 100%;
+    text-align: center;
+}

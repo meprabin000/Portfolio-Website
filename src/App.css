@@ -1,59 +1,26 @@
-.home {
-  background-color: black;
-  color: white;
-  height: 100vh;
+.navigation-bar {
+    font-size: 1rem;
+    width: 100%;
+    padding: 0px 25px;
+}
+.navigation-panel {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-/* ......................HEADER..................... */
-/* Navigation Bar */
-.Nav-Bar {
-  padding: 1em 0em;
-  height: 8%;
-  background-color: black;
+.navigation-panel p a {
+    color: white;
+    
 }
 
-/* Navigation Item */
-.Nav-Item {
-  background-color: black;
-  width: 8em;
-  text-align: center;
-  padding: 0.5em;
-  margin: 0.2em;
-  float: left;
+.navigation-panel p {
+    display: inline-block;
+    width: 6rem;
+    text-align: center;
 }
 
-.Nav-Item > a{
-  color: white;
-  text-decoration: none;
-  font-size: 1.2em;
-}
-
-.Nav-Item > a:hover {
-  color: grey;
-}
-
-/*..........................MAIN CONTENT......................*/
-.Main-Content {
-  padding: 5em;
-  color: #8a8a95;
-}
-
-.Main-Content-Left {
-  width: 70%;
-}
-
-.Main-Content-Right {
-  width: 30%;
-}
-
-.Intro > p > strong{
-  font-size: 3em;
-}
-
-.Intro > p > strong > span {
-  font-size: 1.5em;
-}
-
-.Intro > h2 {
-  
+.navigation-panel p a:hover {
+    color: orange;
 }
